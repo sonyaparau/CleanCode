@@ -44,6 +44,7 @@ and "get" as equivalent methods of different classes. Likewise, it's confusing t
 "driver" in the same code base. => A consistent lexicon is a great boon to the programmers who must use your code.
 - Avoid using the same word for two purposes. => one word per concept
 - We want our code to be a quick skim, not an intense study.
+- Add no more context to a name that is necessary.
 
 
 #### Bibliography
