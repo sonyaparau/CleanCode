@@ -39,6 +39,11 @@ clarity is king. Professionals use their powers for good and write code that oth
 words like "Manager", "Processor", "Data" or "Info" in the name of a class. A class name should not be a verb!
 - Methods should have verb or phrase names like "postPayment", "deletePage" or "save". Accessors, mutators and 
 predicates should be named for their value and prefixed with "get", "set" or "is". (e.g. Getters and Setters).
+- Choose one word for one abstract concept and stick with it.  For instance, it's confusing to have "fetch", "retrieve" 
+and "get" as equivalent methods of different classes. Likewise, it's confusing to have a "controller", a "manager" and a
+"driver" in the same code base. => A consistent lexicon is a great boon to the programmers who must use your code.
+- Avoid using the same word for two purposes. => one word per concept
+- We want our code to be a quick skim, not an intense study.
 
 
 #### Bibliography
