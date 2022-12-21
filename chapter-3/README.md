@@ -34,6 +34,15 @@ thing cannot be divided into sections. Example of sections within a method:
     // sieve
     ...
 ```
+- Switch statements: it's hard to make a switch statement that does one thing. They do N things. Unfortunately switch
+statements cannot always be avoided, but we can make sure that each switch statement is buried in a low-level class and 
+is never repeated. This can be done with polymorphism (see example 2). Solution is to bury the switch statement in an
+ABSTRACT FACTORY. The factory will use the switch statement to create appropriate instances.
+- The smaller and more focused a function is, the easier it is to choose a descriptive name.
+-Don't be afraid to make a name long. A long descriptive name is better than a short enigmatic name.
+- A long descriptive name is better than a long descriptive comment.
+- Don't be afraid to spend time choosing a name.
+- Be consistent in your names. Use the same phrases, nouns, and verbs in the function names you choose for your modules.
 
 
 #### Bibliography
